@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<?xml-model href="http://download.ros.org/schema/package_format3.xsd" schematypens="http://www.w3.org/2001/XMLSchema"?>
+<package format="3">
+  <name>fleet_adapter_mqtt</name>
+  <version>0.2.0</version>
+  <description>Robotnik MQTT RMF fleet adapter</description>
+  <maintainer email="emji@ai2.upv.es">Emima Jiva</maintainer>
+  <maintainer email="ggari@robotnik.es">Guillem Gari</maintainer>
+  <maintainer email="yadunund@openrobotics.org">Yadunund</maintainer>
+  <license>Apache License 2.0</license>
+
+  <exec_depend>rmf_fleet_adapter_python</exec_depend>
+
+  <export>
+    <build_type>ament_python</build_type>
+  </export>
+</package>
